@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <section id="hexagon-container">
+      <article>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2 special">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item special">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hex_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2">
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <script>
+    $(function() {
+        $(".hexagon-in2").each(function() {
+            var hue = 'rgb(' + (Math.floor((256-199)*Math.random()) + 200) + ',' + (Math.floor((256-199)*Math.random()) + 200) + ',' + (Math.floor((256-199)*Math.random()) + 200) + ')';
+             $(this).css("background-color", hue);
+        });
+    });
+    </script>
+  </body>
+</html>
